@@ -1,0 +1,103 @@
+.div-center {
+    font-style: italic;
+    font-family: cursive ;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:aqua;
+    color:black;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: yellow;
+    margin: 30px 70px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+  }
+.card:hover {
+    box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+    transform: translateY(-6px);
+}
+
+.alert{
+  background-color: red;
+  border-radius: 40px;
+  font-family:monospace;
+  color: aliceblue;
+  font-size:large;
+  transition: 0.3s;
+}
+
+.alert:hover{
+  background-color: rgb(240, 99, 99);
+  transform: translate3d(-4px, -4px, 4px)
+  
+}
+
+.alert:after{
+  content:'Are you sure this Pokemon exist ???';
+}
+.alert:hover:after{
+  content:'Type name of Pokemon correctly';
+}
+
+/*.alert:hover span{
+  display: none;
+}
+
+.alert:hover:before {
+  content: "Reply!"
+}
+*/
+.close-btn{
+  color: aliceblue;
+}
+
+.hidden {
+  opacity: 0;
+  display: none;
+}
+
+.search-box{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 10px;
+    border: 3px solid rgb(241, 198, 7);
+    border-radius: 10px;
+    font-size: large;
+}
+
+.detail-container {
+    flex-direction: column;
+    padding:100px 30px 60px;
+    border-radius: 10px;
+    margin-top: -150px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background-color: #1751f0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 9px rgb(226, 152, 14);
+  }
+  
+  .button:hover {background-color: #f1e043}
+  
+  .button:active {
+    background-color: #d4f34a;
+    box-shadow: 0 5px rgb(226, 152, 14);
+    transform: translateY(4px);
+  }
